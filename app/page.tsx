@@ -1,12 +1,8 @@
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { HeroCarousel } from "./components/HeroCarousel";
 
 export default function Home() {
-  const heroSlides = [
-    "https://ronin.pk/cdn/shop/files/Vector_Desktop.avif?v=1777113309&width=2000",
-    "https://ronin.pk/cdn/shop/files/Evolve_Desktop.avif?v=1776701602&width=2000",
-    "https://ronin.pk/cdn/shop/files/Headphone_Series_c8735a16-2527-4252-ad9d-8bf1c012524f.avif?v=1773303016&width=2000",
-  ];
   const newArrivals = [
     {
       title: "Vector Earbuds",
@@ -14,7 +10,7 @@ export default function Home() {
       price: "Rs.6,675",
       compareAt: "Rs.8,175",
       image:
-        "https://ronin.pk/cdn/shop/files/B1_c013970b-f860-4ffe-b160-0f52348a8aac.webp?v=1777099619&width=400",
+        "https://res.cloudinary.com/dk99vzl81/image/upload/v1777827896/Glory_Bluetooth_Fontec_fmtzgo.png",
     },
     {
       title: "Evolve Earbuds",
@@ -22,7 +18,7 @@ export default function Home() {
       price: "Rs.4,995",
       compareAt: "Rs.6,495",
       image:
-        "https://ronin.pk/cdn/shop/files/Evolve_Earbuds_62127995-2469-484c-89bb-2c837b80cee5.webp?v=1776927678&width=400",
+        "https://res.cloudinary.com/dk99vzl81/image/upload/v1777827896/Glory_Bluetooth_Fontec_fmtzgo.png",
     },
     {
       title: "Vesper Ai",
@@ -30,7 +26,7 @@ export default function Home() {
       price: "Rs.7,595",
       compareAt: "Rs.9,095",
       image:
-        "https://ronin.pk/cdn/shop/files/W1_3ac6f6eb-63d5-497a-8518-f468cd2f45d1.webp?v=1776178125&width=400",
+        "https://res.cloudinary.com/dk99vzl81/image/upload/v1777827896/Glory_Bluetooth_Fontec_fmtzgo.png",
     },
     {
       title: "Warrior Earbuds",
@@ -38,7 +34,7 @@ export default function Home() {
       price: "Rs.5,795",
       compareAt: "Rs.7,395",
       image:
-        "https://ronin.pk/cdn/shop/files/W1_ec9b2248-46de-4229-bb7c-8742af40a0c7.webp?v=1776075345&width=400",
+        "https://res.cloudinary.com/dk99vzl81/image/upload/v1777827896/Glory_Bluetooth_Fontec_fmtzgo.png",
     },
   ];
   const uspItems = [
@@ -88,8 +84,8 @@ export default function Home() {
   const blogs = [
     {
       title:
-        "Ronin Unveils 5 Software Based Earbuds: One Vision, Five Distinct Experiences",
-      desc: "Ronin has never believed in doing what everyone else does.",
+        "Fontec Unveils 5 Software Based Earbuds: One Vision, Five Distinct Experiences",
+      desc: "Fontec has never believed in doing what everyone else does.",
       image: "https://ronin.pk/cdn/shop/articles/5th_Article.webp?v=1773827769&width=450",
     },
     {
@@ -100,7 +96,7 @@ export default function Home() {
     },
     {
       title:
-        "Iqra Aziz, Hamza Sohail & Kinza Hashmi Join Ronin as Official Brand Ambassadors",
+        "Iqra Aziz, Hamza Sohail & Kinza Hashmi Join Fontec as Official Brand Ambassadors",
       desc: "In every era, there are names that define the mindset.",
       image:
         "https://ronin.pk/cdn/shop/articles/Iqra-Aziz_-Hamza-Sohail-_-Kinza-Hashmi-Join-Ronin-as-Official-Brand-Ambassadors_jpg.jpg?v=1773825810&width=450",
@@ -116,13 +112,7 @@ export default function Home() {
     <div className="bg-white text-[#121212]">
       <Header />
       <main>
-        <section className="mx-auto max-w-[2000px]">
-          <div className="ronin-scroll flex snap-x snap-mandatory overflow-x-auto">
-            {heroSlides.map((src) => (
-              <img key={src} alt="Ronin banner" className="h-auto min-w-full snap-start object-cover" src={src} />
-            ))}
-          </div>
-        </section>
+        <HeroCarousel />
 
         <section className="mx-auto max-w-[1440px] px-4 py-10">
           <div className="mb-5 flex items-center justify-between">
@@ -165,7 +155,7 @@ export default function Home() {
 
         <section className="mx-auto max-w-[1440px] px-4 py-8">
           <h2 className="mb-5 text-3xl font-extrabold uppercase leading-none tracking-tight md:text-5xl">
-            Meet <span className="text-[#244d87]">Generation Ronin</span>
+            Meet <span className="text-[#244d87]">Generation Fontec</span>
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {ambassadors.map((ambassador) => (

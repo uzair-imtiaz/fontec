@@ -276,8 +276,8 @@ export function Header() {
           <div className="flex-shrink-0 w-[200px]">
             <a href="/" className="desktoponly">
               <img
-                src="https://ronin.pk/cdn/shop/files/ronin-logo_alt.png?v=1748266703&width=150"
-                alt="Ronin Logo"
+                src="https://res.cloudinary.com/dk99vzl81/image/upload/v1777827895/Fontec_Logo_ccmles.png"
+                alt="Fontec Logo"
                 height={27}
                 width={150}
               />

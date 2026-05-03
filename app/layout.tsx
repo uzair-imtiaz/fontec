@@ -19,9 +19,9 @@ const assistant = Assistant({
 });
 
 export const metadata: Metadata = {
-  title: "Ronin - A globally Accredited Smart Wearable & Tech Accessories Brand",
+  title: "Fontec - A globally Accredited Smart Wearable & Tech Accessories Brand",
   description:
-    "Discover RONiN smart wearables and tech accessories, from earbuds to smartwatches, built for performance, style, and everyday use.",
+    "Discover Fontec smart wearables and tech accessories, from earbuds to smartwatches, built for performance, style, and everyday use.",
 };
 
 export default function RootLayout({

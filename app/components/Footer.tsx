@@ -73,11 +73,11 @@ export function Footer() {
             ))}
 
             <div className="border-white/45 lg:border-l lg:pl-9">
-              <a href="https://ronin.pk/">
+              <a href="/">
                 <img
-                  alt="Ronin"
+                  alt="Fontec"
                   className="mb-4 h-8 w-auto"
-                  src="https://cdn.shopify.com/s/files/1/0695/8832/0569/files/Whte.png?v=1738679755&width=150"
+                  src="https://res.cloudinary.com/dk99vzl81/image/upload/v1777827895/Fontec_Logo_ccmles.png"
                 />
               </a>
               <ul className="mb-5 flex items-center gap-3 text-sm font-semibold text-white/90">
@@ -112,8 +112,8 @@ export function Footer() {
                 <a className="block font-semibold text-white" href="tel:021111176646">
                   Call Us: 021 111 176 646
                 </a>
-                <a className="block font-semibold text-white" href="mailto:Support@ronin.pk">
-                  Email Us: Support@ronin.pk
+                <a className="block font-semibold text-white" href="mailto:Support@fontec.pk">
+                  Email Us: Support@fontec.pk
                 </a>
               </div>
               <h5 className="mb-2 text-[16px] font-semibold">Get exclusive offer and updates</h5>
@@ -134,7 +134,7 @@ export function Footer() {
 
       <div className="py-5">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-3 px-4">
-          <span className="text-xs text-black/70">© 2026 Ronin - All Rights Reserved</span>
+          <span className="text-xs text-black/70">© 2026 Fontec - All Rights Reserved</span>
           <ul className="flex flex-wrap items-center gap-1.5" role="list">
             {paymentIcons.map((icon) => (
               <li key={`${icon.alt}-${icon.src}`}>
